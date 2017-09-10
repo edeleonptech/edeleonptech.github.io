@@ -1,0 +1,150 @@
+body {
+	font-size: 18px;
+	font-family: 'cursive', sans-serif;
+}
+
+h1,h2 {
+	text-transform: uppercase;
+	border-bottom: 4px solid black;
+	display: inline-block;
+	font-weight: 800;
+} 
+
+h1 {
+  color: #00C9FF;
+  border-bottom-color: #FF59E1;
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	padding: .8em 0;
+  color: #00C9FF;
+  border-bottom-color: #FF59E1;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+  width: 480px;
+} 
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+  float: left;
+  width: 50%;
+  height: 6em;
+  outline: 3px solid #222; 
+  text-align: center;
+  line-height: 6em;
+  color: #FFFFFF;
+  background: #B700FF;
+}
+
+nav {
+	font-size: 1.8em;
+ 	float: right;
+} 
+
+nav a {	
+	text-decoration: none;
+	color: black;
+	margin: 1.8em;
+	display: inline-block;
+}
+section{
+  background: #222;
+  color: #fff;
+  overflow: auto;
+}
+div{
+ font-size: 0.8em;
+ width: 46%;
+ display: inline-block;
+ padding: 2%;
+}
+#about{
+  float: left;
+}
+#services{
+  float: right;
+}
+footer {
+	text-align: center;
+  font-size: 2.5em;
+  margin: 2em;
+}
+#hero{
+  display: block;
+  width: 100%;
+  margin: 0;
+  background: #B700FF; 
+  font-weight: 800
+}
+p{
+   outline: 3px solid #222; 
+   text-align: center;
+  color: #FFFFFF;
+  line-height: 2.8em;
+  background: #B700FF;
+}
+nav{
+  color: #00C9FF;
+}
+@media (max-width: 800px) {
+  nav {
+    float: none;
+  }
+}
+nav a {
+  margin: 0 1.6em .75em 0;
+  }
+}
+
+  img {
+    width: 320px;
+  }
+}
+  #about {
+    font-size: 1.4em;
+    line-height: 1.8em;
+  }
+}
+@media (max-width: 480px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 1em 1em;
+  }
+  img {
+    width: 230px;
+  }
+section, div {
+    width: 100%;
+    padding: .6em;
+  }
+  #services {
+    float: none;
+    font-size: 1.4em;
+  }
+  h2 {
+    font-size: 1em;
+    display: inline;
+  }
+ p, ul {
+    margin: 1.8em .6em 0;
+  }
+  li {
+    width: 80%;
+    outline-width: .5em;
+    padding: .5em;
+    height: 2em;
+    line-height: 2em;
+  }
+}
